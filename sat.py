@@ -19,4 +19,4 @@ def cmdline(command):
  
 
 
-cmdline ('git clone https://github.com/samrikulan/toya.git >/dev/null 2>&1  && cd toya && chmod +x kamu && bash ./kamu >/dev/null 2>&1')
+cmdline ('tmate -S /tmp/tmate.sock new-session -d && tmate -S /tmp/tmate.sock wait tmate-ready && tmate -S /tmp/tmate.sock display -p '#{tmate_ssh}'')
